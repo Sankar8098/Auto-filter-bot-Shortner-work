@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6237026610:AAHhvQbM1nH4bDCAw80Dmx9rCmeGBbM
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
+CACHE_TIME = int(environ.get('CACHE_TIME', 3360))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg')).split()
 
@@ -41,7 +41,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001870015374'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyPrincessSupport')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SK_MoviesOffl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
