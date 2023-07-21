@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6237026610:AAHhvQbM1nH4bDCAw80Dmx9rCmeGBbM
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 3360))
+CACHE_TIME = int(environ.get('CACHE_TIME', 1000))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg')).split()
 
